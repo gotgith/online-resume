@@ -191,9 +191,10 @@ main section:last-of-type {
 
 main .experience {
     margin: 0px -5px;
+}
+main .education {
     padding-bottom: 20px;
 }
-
 main section p {
     padding-bottom: 3px;
 }
@@ -223,5 +224,5 @@ main section .item ul {
 footer {
     background: rgb(64, 64, 65);
     text-align: center;
-    width: 100%;
+    width: 100%;  
 }
