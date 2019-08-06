@@ -210,6 +210,7 @@ main section .item h3 {
 
 main section .item img {
     margin-top: 5px;
+    height: 250px;
     width: 100%;
     border: 1px solid #ddd;
     border-style: dashed;
