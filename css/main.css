@@ -48,8 +48,8 @@ header {
     background: linear-gradient(180deg, #607D8B 0, #212121 100%);
     width: 100%;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 30px;
+    padding-top: 66px;
+    padding-bottom: 25px;
     position: relative;
 }
 
@@ -102,7 +102,7 @@ aside section:not(:last-of-type) {
 }
 
 section h2 {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     color: #2397DF;
 }
 
@@ -191,9 +191,6 @@ main section:last-of-type {
 
 main .experience {
     margin: 0px -5px;
-}
-main .education {
-    padding-bottom: 20px;
 }
 main section p {
     padding-bottom: 3px;
