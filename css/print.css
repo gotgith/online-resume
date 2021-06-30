@@ -1,8 +1,8 @@
 body {
-    background: transparent;
-    height: 100vh;
+  background: transparent;
+  height: 100vh;
 }
 
 main .item img {
-    display: none;
+  display: none;
 }
