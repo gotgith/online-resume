@@ -2,7 +2,3 @@ body {
   background: transparent;
   height: 100vh;
 }
-
-main .item img {
-  display: none;
-}

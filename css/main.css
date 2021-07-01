@@ -41,12 +41,13 @@ body {
   background: #fff;
   max-width: 960px;
   margin: 0 auto;
+  position: relative;
 }
 
 /* header */
 header {
-  /* background: rgb(64, 64, 65); */
-  background: linear-gradient(180deg, #607D8B 0, #212121 100%);
+  background: rgb(64, 64, 65);
+  /*background: linear-gradient(180deg, #607D8B 0, #212121 100%);*/
   width: 100%;
   text-align: center;
   padding-top: 66px;
@@ -82,13 +83,13 @@ aside {
 aside .avader {
   text-align: center;
   position: absolute;
-  top: -110px;
+  top: -100px;
   width: 100%;
 }
 
 aside .avader > img {
   width: 180px;
-  height: 190px;
+  height: 180px;
   border-radius: 50%;
   background: cornflowerblue;
 }
@@ -209,6 +210,10 @@ main section .item:not(:last-of-type) {
   padding-bottom: 20px;
 }
 
+main section .item.title {
+  padding-bottom: 10px;
+}
+
 main section .item h3 {
   color: #333;
   font-size: 16px;
@@ -246,6 +251,8 @@ main section .wrapper img {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
   background: rgb(64, 64, 65);
   text-align: center;
   width: 100%;
